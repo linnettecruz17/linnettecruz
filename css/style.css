@@ -1,0 +1,38 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com -decide what fonts you want to keep  */
+
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+body {
+  background-color: white;
+  font-family: "Lora", serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: hsl(240, 6%, 8%);
+}
+
+h1 {
+  font-family: "Bitter", Lora;
+  font-size: 32px;
+  padding-top: 20px
+}
+ h2 { 
+   font-family: "Bitter", Lora;
+}
+
+img {
+    border-radius: 50%;center 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.parent {
+  display: inline-flex;
+}
+
+
+
+ {border-style: none;}
