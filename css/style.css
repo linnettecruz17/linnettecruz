@@ -8,31 +8,91 @@ body {
   padding: 5px 25px;
   font-size: 18px;
   margin: 0;
-  color: hsl(240, 6%, 8%);
+  color: #000000;
 }
+
+/* Menu Bars*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   background-color:#A52A2A;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/*headers are two different fonts*/
+
+
 
 h1 {
   font-family: "Bitter", Lora;
   font-size: 32px;
-  padding-top: 20px
+  padding-top: 20px;
+  text-align: center;
+  color: #991f00;
 }
+
  h2 { 
    font-family: "Bitter", Lora;
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center; 
+     color: #991f00;
+}
+/*I decided on three color fonts to distinguish the text*/
+
+
+h3 {
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center; 
+    color:	#8000ff;
 }
 
-img {
-    border-radius: 50%;center 
+h4 {
+     font-size: 16px;
+    padding-top: 10px;
+    text-align: center; 
+    color:#bf00ff;
 }
 
+/*imagess will have round border just to symbolize togetherness*/
+
 img {
+    border-radius: 50%;
     max-width: 100%;
     height: auto;
+   }
+
+/*form box for the prayer information*/
+input, textarea {
+    width: 100%;  
+    margin: 0;
+    box-sizing: border-box;
 }
 
+{div
+ padding: 10px;}
+ 
+ 
 .parent {
   display: inline-flex;
 }
 
 
 
- {border-style: none;}
